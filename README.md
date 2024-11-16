@@ -86,7 +86,7 @@ Menampilkan seluruh data dalam bentuk tabel
 -	Setelah masukan, program menghitung nilai akhir
 -	Data disimpan dalam daftardata_mahasiswa
 -	Program akan bertanya apakah ingin menambah data lagi (y/t)
-  Data Keluaran : 
+4. Data Keluaran : 
 •	Program menampilkan data dalam format tabel
 •	Menggunakan format string untuk membuat tabel rapi
 -	Kolom yang ditampilkan:
@@ -97,7 +97,7 @@ Menampilkan seluruh data dalam bentuk tabel
   ,	Universitas Negeri Nilai
   , Nilai UAS
   ,	Nilai Akhir
- Format Keluaran : 
+5. Format Keluaran : 
 -	Nilai ditampilkan dengan 1 angka desimal ( .1f)
 -	Nilai akhir ditampilkan dengan 2 angka desimal ( .2f)
 -	Menggunakan padding danalignment untuk membuat tabel rapi
