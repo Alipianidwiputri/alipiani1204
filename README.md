@@ -78,16 +78,11 @@ Menampilkan seluruh data dalam bentuk tabel
 3.	Data Masukan : 
 -	Program menggunakan loop while Trueuntuk memasukkan data secara berulang
 -	Setiap iterasi meminta masukan:
-
-=>	Nama murid
-=>	NIM
-
-=>	Nilai Tugas
-
-=>	Universitas Negeri Nilai
-
-=>	Nilai UAS
-
+  , Nama murid
+  ,	NIM
+  , Nilai Tugas
+  , Universitas Negeri Nilai
+  , Nilai UAS
 -	Setelah masukan, program menghitung nilai akhir
 -	Data disimpan dalam daftardata_mahasiswa
 -	Program akan bertanya apakah ingin menambah data lagi (y/t)
@@ -95,21 +90,13 @@ Menampilkan seluruh data dalam bentuk tabel
 •	Program menampilkan data dalam format tabel
 •	Menggunakan format string untuk membuat tabel rapi
 -	Kolom yang ditampilkan:
--	
-=> Nomor urut
-
-=>	Nama
-
-=>	NIM
-
-=>	Nilai Tugas
-
-=>	Universitas Negeri Nilai
-
-=>	Nilai UAS
-
-=>	Nilai Akhir
-
+  , Nomor urut
+  , Nama
+  , NIM
+  ,	Nilai Tugas
+  ,	Universitas Negeri Nilai
+  , Nilai UAS
+  ,	Nilai Akhir
  Format Keluaran : 
 -	Nilai ditampilkan dengan 1 angka desimal ( .1f)
 -	Nilai akhir ditampilkan dengan 2 angka desimal ( .2f)
