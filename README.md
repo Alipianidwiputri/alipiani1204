@@ -3,23 +3,23 @@
 ![Screenshot 2024-11-16 222855](https://github.com/user-attachments/assets/1da44130-6b33-4684-a0c3-23b6d355d701)
 
 # Penjelasan alur flowchart:
-# 1.	Program dimulai
-# 2.	Proses input data siswa dimulai dengan: 
+1.	Program dimulai
+2.	Proses input data siswa dimulai dengan: 
  -	Masukan Nama
  -	Masukan NIM
  -	Input Nilai Tugas
  -	Masukan Nilai UTS
  -	Masukan Nilai UAS
-# 3.	Setelah input selesai, program menanyakan apakah ingin menambah data lagi (y/t)
-# 4.	Jika jawaban 'y', program kembali ke proses input nama
-# 5.	Jika jawaban 't', program akan: 
+3.	Setelah input selesai, program menanyakan apakah ingin menambah data lagi (y/t)
+4.	Jika jawaban 'y', program kembali ke proses input nama
+5.	Jika jawaban 't', program akan: 
  -	Menampilkan tabel data siswa
  - Menghitung nilai akhir dengan bobot:
 Tugas: 30%
 UTS: 35%
 UAS: 35%
 Menampilkan seluruh data dalam bentuk tabel
-# 6.	Program selesai
+6.	Program selesai
 
 # Pyhton 
 
@@ -66,16 +66,16 @@ Menampilkan seluruh data dalam bentuk tabel
 
 # Penjelasan Hasil Pyhton
 
-# 1.	Fungsi hitung_nilai_akhir : 
+1.	Fungsi hitung_nilai_akhir : 
 -	Fungsi ini menerima 3 parameter: nilai tugas, UTS, dan UAS
 -	Menghitung nilai akhir dengan bobot: 
 =>	Tugas: 30%
 =>	UTS: 35%
 =>	UAS: 35%
-# 2.	Struktur Data : 
+2.	Struktur Data : 
 -	Program menggunakan list data_mahasiswauntuk menyimpan data setiap siswa
 -	Setiap siswa disimpan dalam bentuk kamus dengan kunci: nama, nim, tugas, uts, uas, dan akhir
-# 3.	Data Masukan : 
+3.	Data Masukan : 
 -	Program menggunakan loop while Trueuntuk memasukkan data secara berulang
 -	Setiap iterasi meminta masukan:
   , Nama mahasiswa
@@ -86,7 +86,7 @@ Menampilkan seluruh data dalam bentuk tabel
 -	Setelah masukan, program menghitung nilai akhir
 -	Data disimpan dalam daftardata_mahasiswa
 -	Program akan bertanya apakah ingin menambah data lagi (y/t)
-# 4. Data Keluaran : 
+4. Data Keluaran : 
 •	Program menampilkan data dalam format tabel
 •	Menggunakan format string untuk membuat tabel rapi
 -	Kolom yang ditampilkan:
@@ -97,7 +97,7 @@ Menampilkan seluruh data dalam bentuk tabel
   ,	Universitas Negeri Nilai
   , Nilai UAS
   ,	Nilai Akhir
-# 5. Format Keluaran : 
+5. Format Keluaran : 
 -	Nilai ditampilkan dengan 1 angka desimal ( .1f)
 -	Nilai akhir ditampilkan dengan 2 angka desimal ( .2f)
 -	Menggunakan padding danalignment untuk membuat tabel rapi
