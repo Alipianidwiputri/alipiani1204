@@ -60,5 +60,7 @@ Menampilkan seluruh data dalam bentuk tabel
     for i, mhs in enumerate(data_mahasiswa, start=1):
     print(f"| {i:<2} | {mhs['Nama']:<9} | {mhs['NIM']:<5} | {mhs['Tugas']:<5} | {mhs['UTS']:<3} | {mhs['UAS']:<3} | {mhs['Akhir']:.2f} |")
 
+# Hasil Phyton
 
+![Tugas petr 9](https://github.com/user-attachments/assets/ed4fd443-51b0-4d50-bc82-eb12483172fe)
 
