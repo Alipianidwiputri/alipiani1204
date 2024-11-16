@@ -22,12 +22,13 @@ Menampilkan seluruh data dalam bentuk tabel
 6.	Program selesai
 
 # Pyhton 
-# Program untuk menambahkan data ke dalam sebuah list
 
-# List untuk menyimpan data mahasiswa
-data_mahasiswa = []
+    # Program untuk menambahkan data ke dalam sebuah list
 
-while True:
+    # List untuk menyimpan data mahasiswa
+    data_mahasiswa = []
+
+    while True:
     # Meminta input dari user
     nama = input("Nama: ")
     nim = input("NIM: ")
@@ -53,11 +54,11 @@ while True:
     if tambah_data.lower() != 'y':
         break
 
-# Menampilkan daftar data mahasiswa
-print("\n| No | Nama      | NIM   | Tugas | UTS | UAS | Akhir |")
-print("=======================================================")
-for i, mhs in enumerate(data_mahasiswa, start=1):
-    print(f"| {i:<2} | {mhs['Nama']:<9} | {mhs['NIM']:<5} | {mhs['Tugas']:<5} | {mhs['UTS']:<3} | {mhs['UAS']:<3} | {mhs['Akhir']:.2f} |")
+    # Menampilkan daftar data mahasiswa
+    print("\n| No | Nama      | NIM   | Tugas | UTS | UAS | Akhir |")
+    print("=======================================================")
+    for i, mhs in enumerate(data_mahasiswa, start=1):
+    print(f"| {i:<2} | {mhs['Nama']:<9} | {mhs['NIM']:<5} | {mhs['Tugas']:<5} | {mhs['UTS']:<3} | {mhs['UAS']:<3} | {mhs['Akhir']:.2f} |")
 
 
 
