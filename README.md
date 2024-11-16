@@ -78,7 +78,7 @@ Menampilkan seluruh data dalam bentuk tabel
 3.	Data Masukan : 
 -	Program menggunakan loop while Trueuntuk memasukkan data secara berulang
 -	Setiap iterasi meminta masukan:
-  , Nama murid
+  , Nama mahasiswa
   ,	NIM
   , Nilai Tugas
   , Universitas Negeri Nilai
