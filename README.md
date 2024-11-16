@@ -15,8 +15,8 @@
 5.	Jika jawaban 't', program akan: 
  -	Menampilkan tabel data siswa
  - Menghitung nilai akhir dengan bobot:
-  - Tugas: 30%
-  -	UTS: 35%
-  - UAS: 35%
-  - Menampilkan seluruh data dalam bentuk tabel
+  Tugas: 30%
+  UTS: 35%
+  UAS: 35%
+  Menampilkan seluruh data dalam bentuk tabel
 6.	Program selesai
