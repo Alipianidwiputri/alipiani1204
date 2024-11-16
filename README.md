@@ -13,10 +13,10 @@
 3.	Setelah input selesai, program menanyakan apakah ingin menambah data lagi (y/t)
 4.	Jika jawaban 'y', program kembali ke proses input nama
 5.	Jika jawaban 't', program akan: 
-o	Menampilkan tabel data siswa
-o	Menghitung nilai akhir dengan bobot: 
-	Tugas: 30%
-	UTS: 35%
-	UAS: 35%
-	Menampilkan seluruh data dalam bentuk tabel
+ -	Menampilkan tabel data siswa
+ - Menghitung nilai akhir dengan bobot:
+  - Tugas: 30%
+  -	UTS: 35%
+  - UAS: 35%
+  - Menampilkan seluruh data dalam bentuk tabel
 6.	Program selesai
