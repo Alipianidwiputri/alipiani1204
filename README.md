@@ -69,24 +69,24 @@ Menampilkan seluruh data dalam bentuk tabel
 1.	Fungsi hitung_nilai_akhir : 
 -	Fungsi ini menerima 3 parameter: nilai tugas, UTS, dan UAS
 -	Menghitung nilai akhir dengan bobot: 
->	Tugas: 30%
->	UTS: 35%
->	UAS: 35%
+=>	Tugas: 30%
+=>	UTS: 35%
+=>	UAS: 35%
 2.	Struktur Data : 
 -	Program menggunakan list data_mahasiswauntuk menyimpan data setiap siswa
 -	Setiap siswa disimpan dalam bentuk kamus dengan kunci: nama, nim, tugas, uts, uas, dan akhir
 3.	Data Masukan : 
 -	Program menggunakan loop while Trueuntuk memasukkan data secara berulang
 -	Setiap iterasi meminta masukan: 
->	Nama murid
->	NIM
->	Nilai Tugas
->	Universitas Negeri Nilai
->	Nilai UAS
+=>	Nama murid
+=>	NIM
+=>	Nilai Tugas
+=>	Universitas Negeri Nilai
+=>	Nilai UAS
 -	Setelah masukan, program menghitung nilai akhir
 -	Data disimpan dalam daftardata_mahasiswa
 -	Program akan bertanya apakah ingin menambah data lagi (y/t)
- *  Data Keluaran : 
+  Data Keluaran : 
 •	Program menampilkan data dalam format tabel
 •	Menggunakan format string untuk membuat tabel rapi
 -	Kolom yang ditampilkan:
@@ -97,7 +97,7 @@ Menampilkan seluruh data dalam bentuk tabel
 >	Universitas Negeri Nilai
 >	Nilai UAS
 >	Nilai Akhir
- * Format Keluaran : 
+ Format Keluaran : 
 -	Nilai ditampilkan dengan 1 angka desimal ( .1f)
 -	Nilai akhir ditampilkan dengan 2 angka desimal ( .2f)
 -	Menggunakan padding danalignment untuk membuat tabel rapi
